@@ -30,8 +30,6 @@ body {
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-
-    outline: 2px solid turquoise;
 }
 
 .section-title {
@@ -81,8 +79,7 @@ color: var(--primary-text-color);
 .header {
 padding-top: 24px;
 padding-bottom: 25px;
-
-background-color: thistle;
+border-bottom: 1px solid #ECECEC;
 }
 
 .main-nav {
@@ -345,31 +342,6 @@ color: var(--btn-text-color);
 background-color: var(--btn-background-color);
 }
 
-.filter-button.first {
-min-width: 67px;
-height: 38px;
-}
-
-.filter-button.second {
-min-width: 125px;
-height: 38px;
-}
-
-.filter-button.third {
-min-width: 112px;
-height: 38px;  
-}
-
-.filter-button.fourth {
-min-width: 103px;
-height: 38px;  
-}
-
-.filter-button.fifth {
-min-width: 130px;
-height: 38px;  
-}
-
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
@@ -379,6 +351,7 @@ height: 38px;
     width: 370px;
     margin-right: 30px;
     margin-bottom: 30px;
+    border-bottom: 1px solid #EEEEEE;
 
     background-color: var(--first-background-color);
 }
